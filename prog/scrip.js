@@ -63,7 +63,7 @@ const typed = new Typed('.multiple-text',{
 
 // Replace YOUR_EMAIL_SERVICE_ID, YOUR_TEMPLATE_ID, and YOUR_USER_ID with your actual EmailJS values
 const emailServiceId = 'service_1ho65g1';
-const templateId = 'template_maqv5fm';
+const templateId = 'template_s7051de';
 const userId = '-HNVuaNm2L2v-Zuvt';
 
 document.getElementById('contact-form').addEventListener('submit', function(event) {
