@@ -72,7 +72,6 @@ document.getElementById('contact-form').addEventListener('submit', function(even
     // Get form values
     const fullName = document.getElementById('full-name').value;
     const email = document.getElementById('email').value;
-    const mobileNumber = document.getElementById('mobile-number').value;
     const subject = document.getElementById('email-subject').value;
     const message = document.getElementById('message').value;
 
@@ -80,7 +79,6 @@ document.getElementById('contact-form').addEventListener('submit', function(even
     emailjs.send(emailServiceId, templateId, {
         from_name: fullName,
         email: email,
-        mobile_number: mobileNumber,
         subject: subject,
         message: message
     }, userId)
@@ -95,7 +93,6 @@ document.getElementById('contact-form').addEventListener('submit', function(even
     // Clear form inputs
     document.getElementById('full-name').value = '';
     document.getElementById('email').value = '';
-    document.getElementById('mobile-number').value = '';
     document.getElementById('email-subject').value = '';
     document.getElementById('message').value = '';
 });
